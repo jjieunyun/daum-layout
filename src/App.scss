@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.header_container {
+  border: 1px solid red;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  img {
+    width: 180px;
+    height: 150px;
+    object-fit: contain;
+  }
+  .search_container {
+    input {
+      width: 518px;
+      height: 44px;
+    }
+    div {
+      display: flex;
+      justify-content: space-between;
+      div {
+        span {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
