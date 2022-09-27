@@ -28,3 +28,19 @@
     }
   }
 }
+
+.navbar {
+  border: 1px solid blue;
+  box-sizing: border-box;
+  height: 46px;
+  font-size: 13px;
+  padding-left: 45px;
+}
+.today_base {
+  float: right;
+  position: relative;
+  height: 45px;
+  width: 213px;
+  line-height: 45px;
+  border: 1px solid oranges;
+}
