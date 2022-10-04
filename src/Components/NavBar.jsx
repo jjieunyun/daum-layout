@@ -9,7 +9,7 @@ const NavBar = () => {
           alt="logo"
         />
         <div className="search_container">
-          <input type="text" />
+          <input type="text"/>
           <div>
             <div>
               <span>로또 </span>
@@ -22,7 +22,7 @@ const NavBar = () => {
           </div>
         </div>
       </div>
-      <div className="navbar navbar-expand-lg bg-light">
+      <div className="navbar navbar-expand-lg bg-light" style={{marginBottom: "20px"}}>
         <div className="container-fluid">
           <button
             className="navbar-toggler"
